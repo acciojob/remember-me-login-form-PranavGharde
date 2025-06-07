@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+form {
+  max-width: 300px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+#submit, #existing {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
